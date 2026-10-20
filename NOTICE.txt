@@ -1,0 +1,13 @@
+세종특별자치시의회 공식 공개 회의록의 사실관계를 요약해 만든 비공식 시제품입니다.
+의회가 제작·승인·운영하는 서비스가 아닙니다.
+
+공식 CI 원본:
+https://council.sejong.go.kr/images/egovframework/com/scc/multimedia/sub/ci_img0.gif
+CI 가이드:
+https://council.sejong.go.kr/svc/mtm/MtmCi.do
+원본 비율과 색상을 유지하고 흰색 배경에 표시했습니다.
+공식 CI 및 원자료의 별도 오픈라이선스는 미확인입니다.
+자료와 공식 CI는 코드의 MIT 라이선스 적용 대상이 아닙니다.
+
+회의록 출처와 확인일, 수록 범위는 앱 내 ‘근거자료·수록 범위’와 README에 표시했습니다.
+참고 사이트 assembly-minutes의 소스코드 또는 자산은 복사하지 않았습니다.

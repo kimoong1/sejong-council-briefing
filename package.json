@@ -1,0 +1,19 @@
+{
+  "name": "sejong-council-briefing",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/prepare-public.mjs",
+    "collect": "node scripts/collect.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build:public": "node scripts/prepare-public.mjs",
+    "preview:public": "node scripts/serve-public.mjs",
+    "build:site": "node scripts/build.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  }
+}

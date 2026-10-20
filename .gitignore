@@ -1,0 +1,11 @@
+.preview-state/
+.env*
+!.env.example
+node_modules/
+*.log
+.DS_Store
+raw/
+artifacts/
+
+_public/
+source-bootstrap.zip
