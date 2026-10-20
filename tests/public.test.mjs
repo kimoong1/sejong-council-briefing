@@ -12,6 +12,8 @@ test('public build keeps project subpaths and excludes private runtime/state',as
     await run(process.execPath,['scripts/prepare-public.mjs',out]);
     const index=await fs.readFile(path.join(out,'index.html'),'utf8');
     assert.match(index,/<html lang="ko" data-mode="public">/);
+    assert.match(index,/src="app\.[a-f0-9]{12}\.js"/);
+    assert.match(index,/href="styles\.[a-f0-9]{12}\.css"/);
     for(const ref of [...index.matchAll(/(?:src|href)="([^"#]+)"/g)].map(m=>m[1]).filter(x=>!/^https?:/.test(x))){assert.ok(!ref.startsWith('/'),ref);await fs.access(path.join(out,ref));}
     for(const name of ['worker','.openai','.git','.preview-state','raw','server','site-service.mjs'])await assert.rejects(fs.access(path.join(out,name)));
     const data=JSON.parse(await fs.readFile(path.join(out,'intake.json'),'utf8'));
