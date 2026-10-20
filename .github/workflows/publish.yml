@@ -1,0 +1,66 @@
+name: Collect and publish Sejong Council
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 18 * * *'
+      timezone: Asia/Seoul
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: sejong-public-records-and-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          package-manager-cache: false
+      # One-time import of the audited source package uploaded through GitHub UI.
+      # The archive contains no workflows, credentials, private state, or Git history.
+      - name: Import initial public source package when present
+        run: |
+          if [ -f source-bootstrap.zip ]; then
+            unzip -o source-bootstrap.zip
+            rm source-bootstrap.zip
+          fi
+      - name: Check collector and public publishing boundary
+        run: node --test tests/*.test.mjs
+      - name: Refresh official public records
+        id: refresh
+        continue-on-error: true
+        run: node scripts/collect.mjs web/intake.json
+      - name: Commit public source and checked metadata
+        run: |
+          git config user.name 'sejong-records-bot'
+          git config user.email 'sejong-records-bot@users.noreply.github.com'
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: publish checked Sejong Council records'
+            git push
+          fi
+      - name: Build read-only public site
+        run: node scripts/prepare-public.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _public
+      - name: Publish public site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Describe collection result
+        run: |
+          node --input-type=module -e "import fs from 'node:fs';const d=JSON.parse(fs.readFileSync('web/intake.json'));fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,['## Sejong public records','Checked: '+d.checkedAt,'Records: '+d.counts.total,'Sources: '+d.sources.filter(s=>s.ok).length+'/'+d.sources.length,'Partial: '+d.partial,'New: '+d.counts.new+' / changed: '+d.counts.changed].join('\n\n'));"
+      - name: Mark partial collection for operator review
+        if: steps.refresh.outcome == 'failure'
+        run: exit 1
