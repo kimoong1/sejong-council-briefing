@@ -1,6 +1,8 @@
 // The build embeds public UI assets, seed metadata and the shared collector above.
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 const KEY='sejong/intake-v2.json';
+const RELATION_KEY='sejong/relations-v1.json';
+async function readRelations(env){const stored=await env.BUCKET.get(RELATION_KEY);return stored?await stored.json():RELATIONS;}
 let inFlight=null;
 async function readIntake(env){const stored=await env.BUCKET.get(KEY);return stored?await stored.json():SEED;}
 async function runRefresh(env){
@@ -15,7 +17,9 @@ async function runRefresh(env){
       const result=await collect({previous:old,storeRaw:async(key,html)=>{const name='sejong/raw/'+key+'.html';const found=env.BUCKET.head?await env.BUCKET.head(name):await env.BUCKET.get(name);if(!found)await env.BUCKET.put(name,html,{httpMetadata:{contentType:'text/html; charset=utf-8'}});}});
       result.history=[{checkedAt:result.checkedAt,counts:result.counts,partial:result.partial,errors:result.errors},...(old.history||[])].slice(0,30);
       await env.BUCKET.put(KEY,JSON.stringify(result),{httpMetadata:{contentType:'application/json'}});
-      return {busy:false,checkedAt:result.checkedAt,counts:result.counts,partial:result.partial,errors:result.errors};
+      const relationState=await verifyRelations({state:result,catalog:await readRelations(env)});
+      await env.BUCKET.put(RELATION_KEY,JSON.stringify(relationState));
+      return {busy:false,comparisonsVerified:relevantRelations(result,relationState).length,checkedAt:result.checkedAt,counts:result.counts,partial:result.partial,errors:result.errors};
     }finally{const current=await env.BUCKET.get(leaseKey);if(current&&(await current.json()).token===token)await env.BUCKET.delete(leaseKey);}
   })();
   try{return await inFlight;}finally{inFlight=null;}
@@ -77,6 +81,7 @@ export default {async fetch(request,env){
       return json({error:'Unknown operation'},404);
     }
     if(request.method!=='GET'&&request.method!=='HEAD')return new Response(null,{status:405});
+    if(url.pathname==='/relations.json')return json(await readRelations(env));
     if(url.pathname==='/api/intake')return json(await readIntake(env));
     if(url.pathname==='/curated.json'){
       const data=await readIntake(env),briefings={...CURATED};

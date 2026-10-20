@@ -1,6 +1,6 @@
 # 수집·공개 운영
 
-`.github/workflows/publish.yml`이 매일 18:00 Asia/Seoul, main 브랜치 push, Actions의 **Run workflow** 요청에 실행됩니다. 검사 → 수집 → 색인 커밋 → 읽기 전용 빌드 → Pages 배포 순서입니다. GitHub의 해당 저장소용 임시 토큰만 사용하며 개인 토큰·AI 키·비공개 Site 인증정보는 등록하지 않습니다.
+`.github/workflows/publish.yml`이 매일 18:00 Asia/Seoul, main 브랜치 push, Actions의 **Run workflow** 요청에 실행됩니다. 검사 → 수집·과거/현재 비교 근거 재검증 → 색인 커밋 → 읽기 전용 빌드 → Pages 배포 순서입니다. GitHub의 해당 저장소용 임시 토큰만 사용하며 개인 토큰·AI 키·비공개 Site 인증정보는 등록하지 않습니다.
 
 예약은 정각 완료 보장이 아닙니다. 부하에 따라 지연될 수 있고 공개 저장소의 비활동 기간이 길면 중지될 수 있습니다. [GitHub 예약 문서](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)의 현재 조건을 확인하세요.
 
@@ -24,3 +24,5 @@
 Settings → Pages → Source를 **GitHub Actions**로 설정하고 Actions를 활성화한 뒤 Run workflow를 실행합니다. 필요한 권한은 해당 저장소 contents 쓰기, Pages 배포, 배포 출처 확인용 id-token입니다.
 
 최초 공개 시에만 브라우저로 업로드한 검수된 `source-bootstrap.zip`을 펼쳐 실제 소스로 커밋합니다. 압축파일은 자동 제거되며 이후 실행에는 필요 없습니다. 워크플로·Git 이력·캐시·자격증명은 압축파일에서 제외했습니다.
+
+비교자료의 양쪽 원문 지문·질의·답변 검색어는 매일 다시 확인합니다. 원문이 바뀌면 web/relations.json의 연결 내용을 사람이 검토한 뒤 지문을 갱신합니다. 단순 키워드 일치로 새 연결을 만들지 않습니다.
