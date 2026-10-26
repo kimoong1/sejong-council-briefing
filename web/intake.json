@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "checkedAt": "2026-10-25T13:38:14.009Z",
-  "lastSuccessAt": "2026-10-25T13:38:14.009Z",
+  "checkedAt": "2026-10-26T16:00:22.595Z",
+  "lastSuccessAt": "2026-10-26T16:00:22.595Z",
   "partial": false,
   "counts": {
-    "new": 0,
+    "new": 18,
     "changed": 0,
-    "unchanged": 150,
-    "total": 170
+    "unchanged": 132,
+    "total": 188
   },
   "sources": [
     {
@@ -19,9 +19,11 @@
       "role": "임시·정식 회의록, 의원 질의와 집행부 답변",
       "url": "https://council.sejong.go.kr/cms/mntsLatelyList.do",
       "ok": true,
-      "checkedAt": "2026-10-25T13:38:14.009Z",
+      "checkedAt": "2026-10-26T16:00:22.595Z",
       "count": 15,
       "recordIds": [
+        "minutes-6871",
+        "minutes-6869",
         "minutes-6864",
         "minutes-6866",
         "minutes-6865",
@@ -34,9 +36,7 @@
         "minutes-6857",
         "minutes-6848",
         "minutes-6849",
-        "minutes-6843",
-        "minutes-6845",
-        "minutes-6844"
+        "minutes-6843"
       ],
       "scope": "최근 목록 1페이지"
     },
@@ -49,19 +49,19 @@
       "role": "의안 원문·심사 경과·검토 및 심사보고서",
       "url": "https://council.sejong.go.kr/mnu/act/billList.do",
       "ok": true,
-      "checkedAt": "2026-10-25T13:38:14.009Z",
+      "checkedAt": "2026-10-26T16:00:22.595Z",
       "count": 10,
       "recordIds": [
-        "bills-16377",
-        "bills-16376",
-        "bills-16375",
-        "bills-16367",
+        "bills-16731",
+        "bills-16729",
+        "bills-16735",
+        "bills-16734",
+        "bills-16733",
+        "bills-16728",
+        "bills-16732",
         "bills-16342",
         "bills-16340",
-        "bills-16331",
-        "bills-16339",
-        "bills-16434",
-        "bills-16328"
+        "bills-16331"
       ],
       "scope": "최근 목록 1페이지"
     },
@@ -74,7 +74,7 @@
       "role": "검토보고서·제안설명·예산·결산 부록",
       "url": "https://council.sejong.go.kr/cms/mntsApndxList.do",
       "ok": true,
-      "checkedAt": "2026-10-25T13:38:14.009Z",
+      "checkedAt": "2026-10-26T16:00:22.595Z",
       "count": 81,
       "recordIds": [
         "appendices-13039",
@@ -170,7 +170,7 @@
       "role": "지적·조치결과 자료 후보. 게시판 명칭만으로 완료 여부를 판정하지 않음",
       "url": "https://council.sejong.go.kr/mnu/cap/administrativeAffairsAuditingList.do",
       "ok": true,
-      "checkedAt": "2026-10-25T13:38:14.009Z",
+      "checkedAt": "2026-10-26T16:00:22.595Z",
       "count": 10,
       "recordIds": [
         "audit-16435",
@@ -195,7 +195,7 @@
       "role": "조례안·제안이유·신구조문 대조 자료",
       "url": "https://council.sejong.go.kr/mnu/noc/lawNoticeList.do",
       "ok": true,
-      "checkedAt": "2026-10-25T13:38:14.009Z",
+      "checkedAt": "2026-10-26T16:00:22.595Z",
       "count": 10,
       "recordIds": [
         "legislation-14439",
@@ -220,7 +220,7 @@
       "role": "정책 대안과 연구 결과. 본문 분석 여부는 별도 표시",
       "url": "https://council.sejong.go.kr/mnu/act/researchReportList.do",
       "ok": true,
-      "checkedAt": "2026-10-25T13:38:14.009Z",
+      "checkedAt": "2026-10-26T16:00:22.595Z",
       "count": 10,
       "recordIds": [
         "research-15370",
@@ -245,25 +245,255 @@
       "role": "쟁점 탐색 보조자료. 회의록의 대체 근거로 취급하지 않음",
       "url": "https://council.sejong.go.kr/mnu/noc/reportDataList.do",
       "ok": true,
-      "checkedAt": "2026-10-25T13:38:14.009Z",
+      "checkedAt": "2026-10-26T16:00:22.595Z",
       "count": 10,
       "recordIds": [
-        "press-16498",
-        "press-16497",
-        "press-16495",
-        "press-16494",
-        "press-16490",
-        "press-16489",
-        "press-16488",
-        "press-16482",
-        "press-16477",
-        "press-16474"
+        "press-16510",
+        "press-16509",
+        "press-16508",
+        "press-16507",
+        "press-16506",
+        "press-16505",
+        "press-16504",
+        "press-16503",
+        "press-16502",
+        "press-16498"
       ],
       "scope": "최근 목록 1페이지"
     }
   ],
   "errors": [],
   "records": [
+    {
+      "id": "press-16510",
+      "sourceId": "16510",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "세종시의회 ‘지역경제 및 상권 활성화 특위’ 제1차 회의 개최",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16510",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "세종시의회 ‘지역경제 및 상권 활성화 특위’ 제1차 회의 개최 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "2681e8bdc2b45e14943dfcc1f7abe806a2fb1c0af93314688e6e7d55af13b891",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "press-16509",
+      "sourceId": "16509",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "세종시의회, 제109회 정례회 폐회… 안건 87건 심의 마무리",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16509",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "세종시의회, 제109회 정례회 폐회… 안건 87건 심의 마무리 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "d202a9cbbde9f1f56295f996929b3df4c85158bb399196b7e3187bce3d8044fa",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "press-16508",
+      "sourceId": "16508",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "[건의안] 세종시의회 이순열 의원, “세종특별자치시도 지역 특성 반영한 조례 환경영향평가 실시할 수 있어야”",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16508",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "[건의안] 세종시의회 이순열 의원, “세종특별자치시도 지역 특성 반영한 조례 환경영향평가 실시할 수 있어야” 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "6c8e1a571ff333f66986c86f9ebfcb088d9c5d598a3818c584566d62d11cec5e",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "press-16507",
+      "sourceId": "16507",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "[5분 자유발언] 세종시의회 손인수 의원 위기에 놓인 청소년, 단 한 명도 놓쳐선 안 됩니다",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16507",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "[5분 자유발언] 세종시의회 손인수 의원 위기에 놓인 청소년, 단 한 명도 놓쳐선 안 됩니다 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "a3493caec8796faa071916c2bb345da94df0e366b8d81b2b8540dd3897c3c4f3",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "press-16506",
+      "sourceId": "16506",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "[5분 자유발언] 세종시의회 박범종 의원, “산하 공공기관, 자율성에 상응하는 책임경영 체계 마련해야”",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16506",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "[5분 자유발언] 세종시의회 박범종 의원, “산하 공공기관, 자율성에 상응하는 책임경영 체계 마련해야” 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "b7fe082ee796b274dd58e7289d7331f512f82a892469409b62f688344fe3e668",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "press-16505",
+      "sourceId": "16505",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "[5분 자유발언] 세종시의회 김효숙 의원, “방치된 나성동 미디어큐브, 세종시 문화·상권의 핵심으로 깨워야”",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16505",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "[5분 자유발언] 세종시의회 김효숙 의원, “방치된 나성동 미디어큐브, 세종시 문화·상권의 핵심으로 깨워야” 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "4745289220954436df67ff5dcaadf0a001f7d5162e3efc6a3c0a6a891076c00f",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "press-16504",
+      "sourceId": "16504",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "[5분 자유발언] 세종시의회 김학서 의원, 경지정리 안 된 농업진흥지역 해제 적극 추진 촉구",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16504",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "[5분 자유발언] 세종시의회 김학서 의원, 경지정리 안 된 농업진흥지역 해제 적극 추진 촉구 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "5f905d88105316b8095a38c5e26280d96e64776e27eef5a82823a8cc1c2487b1",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "press-16503",
+      "sourceId": "16503",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "[5분 자유발언] 세종시의회 김재형 의원, 계약 전 현장검증으로 페이퍼컴퍼니 차단 촉구",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16503",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "[5분 자유발언] 세종시의회 김재형 의원, 계약 전 현장검증으로 페이퍼컴퍼니 차단 촉구 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "109da990a5f8f6bd0addb6efae17b0755e395098cd3726a9557f4d7810b4f1be",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "press-16502",
+      "sourceId": "16502",
+      "source": "press",
+      "kind": "보도자료",
+      "title": "[5분 자유발언] 세종시의회 곽효정 의원 행정수도의 성장, 이제는 지역경제의 활력으로",
+      "url": "https://council.sejong.go.kr/mnu/noc/reportDataView.do?bbsSn=16502",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "[5분 자유발언] 세종시의회 곽효정 의원 행정수도의 성장, 이제는 지역경제의 활력으로 날짜 : 2026-10-26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "a0645f19b6cca5810a2f3615be583805f6a34f91bc132dd199c8734ccbdcb17f",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "bills-16729",
+      "sourceId": "16729",
+      "source": "bills",
+      "kind": "의안",
+      "title": "세종일자리경제진흥원임원추천위원회 위원 추천의 건",
+      "url": "https://council.sejong.go.kr/mnu/act/billView.do?billSn=16729",
+      "date": "2026-10-26",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "5144 세종일자리경제진흥원임원추천위원회 위원 추천의 건 의장 본회의 원안가결 2026.10.26",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "26a799e8646b3f752a8dfae0df8c763d8d678f847b11fd6ca20766aec2f2f5ed",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
     {
       "id": "press-16498",
       "sourceId": "16498",
@@ -278,7 +508,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "세종특별자치시의회 교육안전위원회, 조례안 등 11건 심사 날짜 : 2026-10-23",
       "firstSeenAt": "2026-10-23T14:09:09.711Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "b355c9555c48156b2360ef056ae4ead343c7e6da06bae24d62116119ad7acca2",
       "change": {
         "type": "unchanged",
@@ -354,6 +584,228 @@
         "text": "확인한 본문·메타데이터 변화 없음"
       },
       "changedAt": "2026-10-23T14:09:09.711Z",
+      "versions": []
+    },
+    {
+      "id": "minutes-6871",
+      "sourceId": "6871",
+      "source": "minutes",
+      "kind": "회의록",
+      "title": "[ 임시회의록 ] 행정복지위원회",
+      "url": "https://council.sejong.go.kr/cms/mntsViewer.do?mntsId=6871",
+      "date": "2026-10-23",
+      "dateType": "회의일",
+      "documentState": "임시회의록",
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "본문 확인",
+      "listContext": "2133 제109회 제3차 [ 임시회의록 ] 행정복지위원회 2026.10.23 금요일",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "5d9787e5c449ac622bb6a9a461e19f677abb140519e71a8db4c1bb2b3675d105",
+      "pairs": [
+        {
+          "id": "pair-54",
+          "questioner": "김현미 위원",
+          "responder": "기획조정실장 조수창",
+          "questionExcerpt": "실장님, 제가 여쭤보는 거는 조직·인력에 대한 저희 의회의 인력 구성 부분이 아니고 보니까 행정복지위원회에 있던 업무가 경제문화위원회로 가기도 하고 이렇게 이동이 있더라고요. 그렇다고 하면 이 부분에 있어서 상임위 소관에 대한 조정도 좀 필요한데 이 조정에 있어서 의회랑 소통을 했었나 하는 게 첫 번째 이유고요. 이번에 ",
+          "answerExcerpt": "네, 잘 이해했습니다. 여기 조직 개편은 제가 보고드린 바와 같이 주요 업무들을 제시했는데 그 업무와 관련된 세부 업무들은 다양하게 갈라질 수도 있고, 또 편제가 재조정이 필요한 부분이 있습니다. 그거는 저희들이 규칙을 만들면서 확정해 나가게 되는데 집행부에서 주도하는 부분이 조심스러운 부분이 있기 때문에 의회의 의견을 ",
+          "questionFind": "실장님, 제가 여쭤보는 거는 조직·인력에 대한 저희 의회의 인력 구성 부분이 아니",
+          "answerFind": "네, 잘 이해했습니다. 여기 조직 개편은 제가 보고드린 바와 같이 주요 업무들을 ",
+          "followupMention": true,
+          "followupStatus": "후속 이행 증빙 미확인"
+        },
+        {
+          "id": "pair-190",
+          "questioner": "김현미 위원",
+          "responder": "보건복지국장 김려수",
+          "questionExcerpt": "안녕하세요, 김현미입니다. 국장님, 사서원이 적지 않은 예산을 투여하고 있습니다. 32억 원 정도 예산을 투여하게 되는데 지금 현재 현원은 33명 중에서 한 29명 되고 실질적으로 저희 현재 근무하는 직원 이외에는 거의 다 위탁이나 대행을 하고 있습니다. 과연 사서원이 이런 막대한 예산을 투여하면서 계속적인 존치가 답인가",
+          "answerExcerpt": "지금 여러 가지 말씀 주셨는데요. 시 전체적인 공공기관 사업 예산을 보면 적지 않은 예산을 집행하고 있는 것이 맞습니다. 그리고 그동안에 의회에서도 여러 가지 지적들을 해 주셨고, 또 우리 민간 복지 기관에서도 건의 사항도 있었습니다. 그런 것들 종합적으로 토대로 해서 지금 시 전체적으로 사회서비스원뿐만 아니라 공공기관 ",
+          "questionFind": "안녕하세요, 김현미입니다. 국장님, 사서원이 적지 않은 예산을 투여하고 있습니다.",
+          "answerFind": "지금 여러 가지 말씀 주셨는데요. 시 전체적인 공공기관 사업 예산을 보면 적지 않",
+          "followupMention": true,
+          "followupStatus": "후속 이행 증빙 미확인"
+        },
+        {
+          "id": "pair-202",
+          "questioner": "김현미 위원",
+          "responder": "보건복지국장 김려수",
+          "questionExcerpt": "사실 이게 공공위탁 가면서 우려스러운 부분이 또 앞에 말씀드린 것과 반복적으로 나타나는 것 같은데요. 현원 대비 위탁하고 있는 것들이 너무 많습니다. 결국은 인원 대비 관리·감독할 것들이 너무 많은데 이것들이 관리·감독하지 않은 상태에서 계속적으로 예산만 투여하고 있다고 하면 이렇게 신규 위탁하는 부분에 대해서도 우려하지",
+          "answerExcerpt": "이 부분은 달리 봐 주시면 좋을 것 같아요. 왜 그러냐면 일단 정부가 관련법에 의해서 시행하는 거고 지난해까지 4개 시도가 시행을, 시범 운영을 했었습니다. “금년 연말까지 모든 지자체로 확대, 시도 단위로 확대하는 거다.” 우선 이 말씀을 드리고요. 우선 가족돌봄청년을 발굴해야 하고 고립·은둔청년들을 발굴해야 하거든요.",
+          "questionFind": "사실 이게 공공위탁 가면서 우려스러운 부분이 또 앞에 말씀드린 것과 반복적으로 나",
+          "answerFind": "이 부분은 달리 봐 주시면 좋을 것 같아요. 왜 그러냐면 일단 정부가 관련법에 의",
+          "followupMention": true,
+          "followupStatus": "후속 이행 증빙 미확인"
+        }
+      ],
+      "attachments": [],
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "minutes-6869",
+      "sourceId": "6869",
+      "source": "minutes",
+      "kind": "회의록",
+      "title": "[ 임시회의록 ] 경제문화위원회",
+      "url": "https://council.sejong.go.kr/cms/mntsViewer.do?mntsId=6869",
+      "date": "2026-10-23",
+      "dateType": "회의일",
+      "documentState": "임시회의록",
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "본문 확인",
+      "listContext": "2132 제109회 제3차 [ 임시회의록 ] 경제문화위원회 2026.10.23 금요일",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "6ed417fb0078c55a363553b950addd589fd7a65a3bda7e13987711444537e0eb",
+      "pairs": [
+        {
+          "id": "pair-190",
+          "questioner": "윤성규 위원",
+          "responder": "도농상생국장 김회산",
+          "questionExcerpt": "그래서 낙과 같은 경우가 생기면, 배나 복숭아나 낙과 같은 게 생기면, 흔히 다른 용어로 쓰면 불량품이긴 한데 이거를 따로 모아서 따로 판매를 한단 말이에요. 청과물상회라든가 이런 데서 이걸 따로 사요. 아주 완성된 제품의 금액치가 아닌 절반 이하의 금액으로 해서 청과물상회에서 삽니다. 이걸 사는데 이와 같은 못난이 농산",
+          "answerExcerpt": "어차피 농가의 선택인 것 같습니다. 어디로 가든 이익이 될 거니까 청과물에 넘기는 게 이익이면 그쪽으로 넘기면 되는 거고, 관내에서 해서 팔 수 있으면 관내에서 파면 되고, 지금은 이런 못난이 농산물 같은 경우에 가공식품 그런 거 할 때 일부 쓰고 있는 걸로 알고 있습니다.",
+          "questionFind": "그래서 낙과 같은 경우가 생기면, 배나 복숭아나 낙과 같은 게 생기면, 흔히 다른",
+          "answerFind": "어차피 농가의 선택인 것 같습니다. 어디로 가든 이익이 될 거니까 청과물에 넘기는",
+          "followupMention": false,
+          "followupStatus": "후속 이행 증빙 미확인"
+        },
+        {
+          "id": "pair-216",
+          "questioner": "김동호 위원",
+          "responder": "도농상생국장 김회산",
+          "questionExcerpt": "그렇게 하는데 자발적인, 농가에서 노력을 하지 않아도 시에서 만일 보조를 해 준다, 지원을 해 준다라고 하면 적극적인 어떠한 자체적인 판로 정책이나 이런 걸 하지 않고 시에서 어차피 지원해 줄 테니까, 지원해 주세요. 약간 적극적인 판로 정책보다는 상당히 소극적일 수 있다 이런 문제점도 있고, 어떤 농가에 어떤 기준으로 ",
+          "answerExcerpt": "여기도 보면 “제7조(지원사업)” 해서 “추진할 수 있다.” 해 가지고 이렇게 쭉쭉 7개 항목 정도 나와 있는데 실제로는 이것은 메인은 어차피 정상 제품, 표준 제품 이런 것을 지원하는 게 우리 취지에 맞는 거고 이것은, 글쎄요, 타 지자체 사례도 보면 판촉 활동할 때 한 번씩 이렇게 해 준다거나 그런 경우가 대부분이고,",
+          "questionFind": "그렇게 하는데 자발적인, 농가에서 노력을 하지 않아도 시에서 만일 보조를 해 준다",
+          "answerFind": "여기도 보면 “제7조(지원사업)” 해서 “추진할 수 있다.” 해 가지고 이렇게 쭉",
+          "followupMention": false,
+          "followupStatus": "후속 이행 증빙 미확인"
+        }
+      ],
+      "attachments": [],
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "bills-16735",
+      "sourceId": "16735",
+      "source": "bills",
+      "kind": "의안",
+      "title": "2026년도 행정사무감사 결과보고서 채택의 건(교육안전위원회 소관)",
+      "url": "https://council.sejong.go.kr/mnu/act/billView.do?billSn=16735",
+      "date": "2026-10-23",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "5143 2026년도 행정사무감사 결과보고서 채택의 건(교육안전위원회 소관) 위원장 교육안전위원회 원안가결 2026.10.23",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "56dd6f45342c1ceb7909641b75c44a177e991d1e0974bc41d68f7d67c009156d",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "bills-16734",
+      "sourceId": "16734",
+      "source": "bills",
+      "kind": "의안",
+      "title": "2026년도 행정사무감사 결과보고서 채택의 건(도시환경위원회 소관)",
+      "url": "https://council.sejong.go.kr/mnu/act/billView.do?billSn=16734",
+      "date": "2026-10-23",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "5142 2026년도 행정사무감사 결과보고서 채택의 건(도시환경위원회 소관) 위원장 도시환경위원회 원안가결 2026.10.23",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "06d40306a2dfb7c9797e346ff1f5f638396fa57c8ebb1c2be984c98f13f2ca2e",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "bills-16733",
+      "sourceId": "16733",
+      "source": "bills",
+      "kind": "의안",
+      "title": "2026년도 행정사무감사 결과보고서 채택의 건(경제문화위원회 소관)",
+      "url": "https://council.sejong.go.kr/mnu/act/billView.do?billSn=16733",
+      "date": "2026-10-23",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "5141 2026년도 행정사무감사 결과보고서 채택의 건(경제문화위원회 소관) 위원장 경제문화위원회 원안가결 2026.10.23",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "5738f6a611711ba5c06aca9e35ee2d48c6a65a2bc8a20eca2e3710346b624339",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "bills-16731",
+      "sourceId": "16731",
+      "source": "bills",
+      "kind": "의안",
+      "title": "세종특별자치시 도시계획 조례 일부개정조례안",
+      "url": "https://council.sejong.go.kr/mnu/act/billView.do?billSn=16731",
+      "date": "2026-10-23",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "5145 세종특별자치시 도시계획 조례 일부개정조례안 위원장 도시환경위원회 원안가결 2026.10.23",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "3e01df44a10ad13ddb533f8e24430d7086a37eea2b2ad66164d87a22948e7172",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
+      "versions": []
+    },
+    {
+      "id": "bills-16728",
+      "sourceId": "16728",
+      "source": "bills",
+      "kind": "의안",
+      "title": "2026년도 행정사무감사 결과보고서 채택의 건(행정복지위원회 소관)",
+      "url": "https://council.sejong.go.kr/mnu/act/billView.do?billSn=16728",
+      "date": "2026-10-23",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "5140 2026년도 행정사무감사 결과보고서 채택의 건(행정복지위원회 소관) 위원장 행정복지위원회 원안가결 2026.10.23",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "bfc0141c009b2a81a25bcc4f8d9b071cfcd2637f597b071c7184809b2f200590",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
       "versions": []
     },
     {
@@ -508,7 +960,7 @@
       "analysisState": "본문 확인",
       "listContext": "2130 제109회 제1차 [ 임시회의록 ] 공공시설물인수점검특별위원회 2026.10.22 목요일",
       "firstSeenAt": "2026-10-23T14:09:09.711Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5dfd9f7877c5e32f18299e38d88937d46f504b80e41ed205e7c772083ebf9570",
       "pairs": [
         {
@@ -567,7 +1019,7 @@
       "analysisState": "본문 확인",
       "listContext": "2131 제109회 제3차 [ 임시회의록 ] 의회운영위원회 2026.10.22 목요일",
       "firstSeenAt": "2026-10-22T14:36:10.558Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "e0158ca9e2e22e187a50256f7e5adc2c2b5f0468e5034454125f95cb0f121f54",
       "pairs": [],
       "attachments": [],
@@ -576,6 +1028,29 @@
         "text": "확인한 본문·메타데이터 변화 없음"
       },
       "changedAt": "2026-10-22T14:36:10.558Z",
+      "versions": []
+    },
+    {
+      "id": "bills-16732",
+      "sourceId": "16732",
+      "source": "bills",
+      "kind": "의안",
+      "title": "2026년도 행정사무감사 결과보고서 채택의 건(의회운영위원회 소관)",
+      "url": "https://council.sejong.go.kr/mnu/act/billView.do?billSn=16732",
+      "date": "2026-10-22",
+      "dateType": "목록 기재일",
+      "documentState": null,
+      "license": "별도 오픈라이선스 미확인",
+      "analysisState": "목록·메타데이터 수집",
+      "listContext": "5139 2026년도 행정사무감사 결과보고서 채택의 건(의회운영위원회 소관) 위원장 의회운영위원회 원안가결 2026.10.22",
+      "firstSeenAt": "2026-10-26T16:00:22.595Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
+      "contentHash": "3f936fceb7fdde78dc5e5fb89ffb26924f1c50e6f403e39af0a522f875a53611",
+      "change": {
+        "type": "new",
+        "text": "처음 수집한 자료입니다. 원문 최초 게시일과 수집일은 다를 수 있습니다."
+      },
+      "changedAt": "2026-10-26T16:00:22.595Z",
       "versions": []
     },
     {
@@ -684,7 +1159,7 @@
       "analysisState": "본문 확인",
       "listContext": "2129 2026년도 [ 임시회의록 ] 의회운영위원회행정사무감사 2026.10.19 월요일",
       "firstSeenAt": "2026-10-22T14:36:10.558Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8688a254e84a7a8d75e16f37e75b27b2e493a8f7831d82bd8aa618a0b0f85df7",
       "pairs": [
         {
@@ -743,7 +1218,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "5138 세종특별자치시의회 2027 충청권 하계세계대학경기대회 추진 특별위원회 구성 변경 결의안 의원 의회운영위원회 부결(부의하지않음) 2026.10.19",
       "firstSeenAt": "2026-10-22T14:36:10.558Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5eeeb4c168f6d0531b0565f94169e292c18730937420e5c0c13b7726029e8a97",
       "change": {
         "type": "unchanged",
@@ -881,7 +1356,7 @@
       "analysisState": "본문 확인",
       "listContext": "2128 2026년도 [ 임시회의록 ] 교육안전위원회행정사무감사 2026.10.16 금요일",
       "firstSeenAt": "2026-10-22T14:36:10.558Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "47374a09157946b46dddf499bfe81fdf94e567f5c742ce769ce272cc6ac6dd27",
       "pairs": [
         {
@@ -1032,7 +1507,7 @@
       "analysisState": "본문 확인",
       "listContext": "2126 2026년도 [ 임시회의록 ] 경제문화위원회행정사무감사 2026.10.15 목요일",
       "firstSeenAt": "2026-10-22T14:36:10.558Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "52620561d1a95268ec7b75d8549ab60f61d056b2d3f24453248d1099e853698f",
       "pairs": [
         {
@@ -1097,7 +1572,7 @@
       "analysisState": "본문 확인",
       "listContext": "2124 2026년도 [ 임시회의록 ] 교육안전위원회행정사무감사 2026.10.15 목요일",
       "firstSeenAt": "2026-10-21T14:30:02.087Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "eb07a9b606c7db610008546faee741c4b2738564751029f9d168ef5f2f9476aa",
       "pairs": [
         {
@@ -1156,7 +1631,7 @@
       "analysisState": "본문 확인",
       "listContext": "2125 2026년도 [ 임시회의록 ] 도시환경위원회행정사무감사 2026.10.15 목요일",
       "firstSeenAt": "2026-10-21T14:30:02.087Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "dec325e6fedf09340beb681bdc8c7cc99a8c330a1798621cc6ff61ce9b41b67f",
       "pairs": [
         {
@@ -1221,7 +1696,7 @@
       "analysisState": "본문 확인",
       "listContext": "2127 2026년도 [ 임시회의록 ] 행정복지위원회행정사무감사 2026.10.15 목요일",
       "firstSeenAt": "2026-10-21T14:30:02.087Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "f48ae0c895956c1c3fd847a8e591a170d8d177cef9114b919d5438f2a6fdc64b",
       "pairs": [
         {
@@ -1280,7 +1755,7 @@
       "analysisState": "본문 확인",
       "listContext": "2122 2026년도 [ 임시회의록 ] 경제문화위원회행정사무감사 2026.10.14 수요일",
       "firstSeenAt": "2026-10-21T14:30:02.087Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5823ea23acc30bf800f544e9f6bba49ab0bac9c67a79c5e65e5ea9897f5fc5f1",
       "pairs": [
         {
@@ -1339,7 +1814,7 @@
       "analysisState": "본문 확인",
       "listContext": "2123 2026년도 [ 임시회의록 ] 행정복지위원회행정사무감사 2026.10.14 수요일",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "082685be5bcfe16b811a1e482c0cf95e147340ed28c1d8ff48d5d6cf463638a3",
       "pairs": [
         {
@@ -1398,7 +1873,7 @@
       "analysisState": "본문 확인",
       "listContext": "2120 2026년도 [ 임시회의록 ] 교육안전위원회행정사무감사 2026.10.14 수요일",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "79ca9bd0d1513a2a04a596baec7856f28e2545f74edc55803320e1b7c61fa9fc",
       "pairs": [
         {
@@ -1457,7 +1932,7 @@
       "analysisState": "본문 확인",
       "listContext": "2121 2026년도 [ 임시회의록 ] 도시환경위원회행정사무감사 2026.10.14 수요일",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "3b71664c90612949b8ecfca5b2c59e24c8fd8c5a9dc760035d5c3a8a650a1fa7",
       "pairs": [
         {
@@ -1516,7 +1991,7 @@
       "analysisState": "본문 확인",
       "listContext": "2116 2026년도 [ 임시회의록 ] 교육안전위원회행정사무감사 2026.10.13 화요일",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "acfbccb77fa1ecfcd7bcf373eacdbf676d446d74c99a2f659f3ecd24fce9c4b8",
       "pairs": [
         {
@@ -1575,7 +2050,7 @@
       "analysisState": "본문 확인",
       "listContext": "2118 2026년도 [ 임시회의록 ] 경제문화위원회행정사무감사 2026.10.13 화요일",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "6765c2d5056edb31a3dc401d8f88bb5c9de082d8da7340af9dbe978197be8b49",
       "pairs": [
         {
@@ -1634,7 +2109,7 @@
       "analysisState": "본문 확인",
       "listContext": "2117 2026년도 [ 임시회의록 ] 도시환경위원회행정사무감사 2026.10.13 화요일",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "6266770ef8e45c94309d439dd9fc7bbc202eb70093b752dda6979f9f813c6919",
       "pairs": [
         {
@@ -1693,7 +2168,7 @@
       "analysisState": "본문 확인",
       "listContext": "2119 2026년도 [ 임시회의록 ] 행정복지위원회행정사무감사 2026.10.13 화요일",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "55081c73894a923fb6fe98ed84c709df1adf0ebf94ce02d4034bc8ebbd97fda0",
       "pairs": [
         {
@@ -1752,7 +2227,7 @@
       "analysisState": "본문 확인",
       "listContext": "2113 2026년도 [ 임시회의록 ] 도시환경위원회행정사무감사 2026.10.12 월요일",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "d658899167860f94696039266a204b24356e771ed6de4b0e325c45e3e02e30bd",
       "pairs": [
         {
@@ -1983,7 +2458,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "5137 세종특별자치시의회 행정수도완성 특별위원회 위원 사·보임의 건 의장 본회의 원안가결 2026.10.08",
       "firstSeenAt": "2026-10-22T14:36:10.558Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8d17242205dc38e11b602761803dd98a4e4c7c13cc64fec3b4dc5f3de9eb8278",
       "change": {
         "type": "unchanged",
@@ -2052,7 +2527,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "5136 세종특별자치시의회 공공시설물 인수점검 특별위원회 위원 선임의 건 의장 본회의 원안가결 2026.10.08",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "1353e4c89afa5b56c949bb5e810fde7a900177481e1bc030fdbcc82bdc0230a8",
       "change": {
         "type": "unchanged",
@@ -2566,9 +3041,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "1742 세종특별자치시 장애인 문화예술 활동 지원 조례 일부개정조례안 입법지원담당 2026-09-18 277",
+      "listContext": "1742 세종특별자치시 장애인 문화예술 활동 지원 조례 일부개정조례안 입법지원담당 2026-09-18 288",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "3203b9d060896c5e72f26b91915aa11974b123de0eadd2758c2e7f2327e4e56f",
       "change": {
         "type": "unchanged",
@@ -2589,9 +3064,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "1741 세종특별자치시 거리공연 활성화에 관한 조례안 입법지원담당 2026-09-18 256",
+      "listContext": "1741 세종특별자치시 거리공연 활성화에 관한 조례안 입법지원담당 2026-09-18 263",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "fa6aff51850e35537ffd70ee8080c5f9f1d04a224c6a14940df95354a1ae2014",
       "change": {
         "type": "unchanged",
@@ -2612,9 +3087,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "1740 세종특별자치시 유산위원회 구성 및 운영에 관한 조례안 입법지원담당 2026-09-18 215",
+      "listContext": "1740 세종특별자치시 유산위원회 구성 및 운영에 관한 조례안 입법지원담당 2026-09-18 217",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8de400064a511f7f745c498af11155ef5e1832b2d2cd15f6d4132039a23d41c0",
       "change": {
         "type": "unchanged",
@@ -2635,9 +3110,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "1739 세종특별자치시 도시계획 조례 일부개정조례안 입법지원담당 2026-09-18 423",
+      "listContext": "1739 세종특별자치시 도시계획 조례 일부개정조례안 입법지원담당 2026-09-18 430",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "e15e5ac5e3d21463a20d945593f871c7aec7aad5d1a04f61a51ecf2cfb159554",
       "change": {
         "type": "unchanged",
@@ -2658,9 +3133,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "1738 세종특별자치시 자전거 이용 활성화에 관한 조례 일부개정조례안 입법지원담당 2026-09-18 214",
+      "listContext": "1738 세종특별자치시 자전거 이용 활성화에 관한 조례 일부개정조례안 입법지원담당 2026-09-18 217",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "4ff2d3242588d25f54661b3541421d4e3fb3c153e88706effb6322a632db7266",
       "change": {
         "type": "unchanged",
@@ -2681,9 +3156,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "1737 세종특별자치시 물순환 촉진 기본 조례안 입법지원담당 2026-09-18 87",
+      "listContext": "1737 세종특별자치시 물순환 촉진 기본 조례안 입법지원담당 2026-09-18 88",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "857d9f26c7903ed8ad6e502c5f04fbc4bcb5f50cd6574497aa04251a4c9e45dc",
       "change": {
         "type": "unchanged",
@@ -2706,7 +3181,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "1736 세종특별자치시 도서관 및 독서문화 진흥 조례 일부개정조례안 입법지원담당 2026-09-18 63",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "37806a95a7475a64fc32b25cbdaa3420d3754e538f7b29b8d9e56ee4ab09e9e3",
       "change": {
         "type": "unchanged",
@@ -2729,7 +3204,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "1735 세종특별자치시 발달장애인 권리보장 및 지원에 관한 조례 일부개정조례안 입법지원담당 2026-09-18 143",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "673528d53ced7de4bff9f8a0694fb9ea448bd200be6b530b7f38a85728d895a1",
       "change": {
         "type": "unchanged",
@@ -2750,9 +3225,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "1734 세종특별자치시 청소년 마음건강 증진 및 정서행동문제 지원에 관한 조례안 입법지원담당 2026-09-18 120",
+      "listContext": "1734 세종특별자치시 청소년 마음건강 증진 및 정서행동문제 지원에 관한 조례안 입법지원담당 2026-09-18 121",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "417172a7c6ea5501f8070b6ee8d5bd998b9fec32d219b6fb9d0670c2125cf32c",
       "change": {
         "type": "unchanged",
@@ -2773,9 +3248,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "1733 세종특별자치시 생명존중문화 조성 및 자살예방 조례 일부개정조례안 입법지원담당 2026-09-18 121",
+      "listContext": "1733 세종특별자치시 생명존중문화 조성 및 자살예방 조례 일부개정조례안 입법지원담당 2026-09-18 123",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "a4029f850fa6b3a86d8df609d7007e399b4e0e508173664153145b38269f2748",
       "change": {
         "type": "unchanged",
@@ -2798,7 +3273,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제1차[폐회중] 2027충청권하계세계대학경기대회추진특별위원회(2026.08.25 화요일) 1. 2027충청권하계세계대학경기대회추진특별위원회 활동계획안",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "c87c00fd9a1f2827165c4b7ea716a5c7d3e52f7164bbe5b28b00ea90276b6b37",
       "change": {
         "type": "unchanged",
@@ -2821,7 +3296,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제1차[폐회중] 행정수도완성특별위원회(2026.08.07 금요일) 1. 행정수도완성특별위원회 활동 계획안",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "25c65a9b2602f5db525df3200948fa5105ebb662f3344efc3ece4f2df4145bb3",
       "change": {
         "type": "unchanged",
@@ -2842,9 +3317,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "44 2026년도 행정사무감사 요구자료 목록(교육안전위원회 소관) 세종시의회 2026-08-05 26",
+      "listContext": "44 2026년도 행정사무감사 요구자료 목록(교육안전위원회 소관) 세종시의회 2026-08-05 28",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "88908468a02803814fd6f0f0ec767f409a96d2a526d1134672fb6d7e0dcb2def",
       "change": {
         "type": "unchanged",
@@ -2867,7 +3342,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "43 2026년도 행정사무감사 요구자료 목록(도시환경위원회 소관) 세종시의회 2026-08-05 17",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "a3dab5880cc439c4c0d29fe9ecff3107fd53d966273ca7285aded95de5b25831",
       "change": {
         "type": "unchanged",
@@ -2888,9 +3363,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "42 2026년도 행정사무감사 요구자료 목록(경제문화위원회 소관) 세종시의회 2026-08-05 16",
+      "listContext": "42 2026년도 행정사무감사 요구자료 목록(경제문화위원회 소관) 세종시의회 2026-08-05 17",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "270f33be8b038982a2d907a40a7830529cab4f8928af93e8177f841bac6b20c9",
       "change": {
         "type": "unchanged",
@@ -2911,9 +3386,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "41 2026년도 행정사무감사 요구자료 목록(행정복지위원회 소관) 세종시의회 2026-08-05 22",
+      "listContext": "41 2026년도 행정사무감사 요구자료 목록(행정복지위원회 소관) 세종시의회 2026-08-05 23",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "47de441fa48d82f09cbb6741097263b76f7bd89bac874404ffc2e76ad508383e",
       "change": {
         "type": "unchanged",
@@ -2936,7 +3411,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "40 2026년도 행정사무감사 요구자료 목록(의회운영위원회 소관) 세종시의회 2026-08-05 19",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "e574600a347db7931eb5cb4634fe1bfda36f9647f6c1bbcd39660fe186cd6826",
       "change": {
         "type": "unchanged",
@@ -2957,9 +3432,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "39 2026년도 행정사무감사 계획 세종시의회 2026-07-30 21",
+      "listContext": "39 2026년도 행정사무감사 계획 세종시의회 2026-07-30 22",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "f8023069053e96db5a0d581a3a660ed3370cb7e1e0afcfe7a690a45dcf37947c",
       "change": {
         "type": "unchanged",
@@ -2982,7 +3457,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제5차 행정복지위원회(2026.07.30 목요일) 1. 행정수도 세종의 지속가능한 재정기반 확립을 위한 제도개선 촉구 결의안",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "bd6bd40f465fc17e7181d9e126bc7e73bd3100c220603ccc3d8694738896eaa0",
       "change": {
         "type": "unchanged",
@@ -3005,7 +3480,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "1bee5c51adffd95a3348565b42342de3372e3a389ade02f9453f78835487e9a9",
       "change": {
         "type": "unchanged",
@@ -3028,7 +3503,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8ca24dc472ffa60e14b61244b12227757e592042afbf6eb54b7fc8d65f50b9c4",
       "change": {
         "type": "unchanged",
@@ -3051,7 +3526,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "ae36fc95d76e7c5e5c4bc162b73011cc2188d64851c95458f23216bb5f3128e6",
       "change": {
         "type": "unchanged",
@@ -3074,7 +3549,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "700160f13824cc96cb70f885c9d8cfa5b77088f1190d247d67968980b666e396",
       "change": {
         "type": "unchanged",
@@ -3097,7 +3572,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "d6ba402b5a1c04ccd500b3d0dbb7889eb625f6fc88fe9eb0dd00c5ccb1ccc794",
       "change": {
         "type": "unchanged",
@@ -3120,7 +3595,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "ae3ae0a01e91114a18fa54875c859ddcd9785c3637ad1ce40826be95d03983e5",
       "change": {
         "type": "unchanged",
@@ -3143,7 +3618,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5f4e7d7825b1664f09bda0743d45f4f9dfe83e6786125b14a5d3970d9f534e86",
       "change": {
         "type": "unchanged",
@@ -3166,7 +3641,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5a46ef76feecd4cbc4b66a01145e28ceb0e16570bb8ff2eda06d5194925b73a9",
       "change": {
         "type": "unchanged",
@@ -3189,7 +3664,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "cf86baff11d46e9dca2207f9e85c06cef3e9cd37b95b442346145cb4b68408ca",
       "change": {
         "type": "unchanged",
@@ -3212,7 +3687,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "72e0c39c1c50fc1b51ea98bf384948fc8e3923eaf37b8612e9994440fd25ad6c",
       "change": {
         "type": "unchanged",
@@ -3235,7 +3710,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5db5218c16db122c0fcc557fca6f8482be89dd8d5c3337f05b29484fc1edc599",
       "change": {
         "type": "unchanged",
@@ -3258,7 +3733,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "9c35588cf0406982a7a3eb2243d472d850a5fa61bd8513a0e41c3abe1e1ca17e",
       "change": {
         "type": "unchanged",
@@ -3281,7 +3756,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "290bddc787ea633bddf8a85a63cca47cdfe2d888ed0867c4a9bd47fbb75ec08c",
       "change": {
         "type": "unchanged",
@@ -3304,7 +3779,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "d2b5846a9ec5197e8d9f2c9208b37250cf7fa6983e2cec108865e96c7ac8caa4",
       "change": {
         "type": "unchanged",
@@ -3327,7 +3802,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "6ceeeb22ea12b4ed7fb317752dae9fd1683366f55f2e8e3aade4d2cad9f134f2",
       "change": {
         "type": "unchanged",
@@ -3350,7 +3825,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8948a5d85211961ebe701e0733222851171822c49a9756c2da5265a4abc4d5ec",
       "change": {
         "type": "unchanged",
@@ -3373,7 +3848,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "578167c990a8823ddd3c17e5ca6605e0fdf5c729a282b094da870ae83ab531d2",
       "change": {
         "type": "unchanged",
@@ -3396,7 +3871,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "9c795d850594467e370ec67c72d9bf2d623e551d3eeb7ed261ea9c620bf47c2a",
       "change": {
         "type": "unchanged",
@@ -3419,7 +3894,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "7bdc06781d63f73a359acd875a3928d37171c175cc91f6c521ea6e4fbc7af442",
       "change": {
         "type": "unchanged",
@@ -3442,7 +3917,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "2efba2c91fc128c8ea12da89bdff18488a68ac1c38bc37cba6ac8503279e55c7",
       "change": {
         "type": "unchanged",
@@ -3465,7 +3940,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "e69dcac71bbd423f9fea2e3da222fe91b959a594ba1f3df7a831856838f83f8c",
       "change": {
         "type": "unchanged",
@@ -3488,7 +3963,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "0402c036ff72f274396580aeb28bc6e6914e93e661c47fe7ce212e5b149122b9",
       "change": {
         "type": "unchanged",
@@ -3511,7 +3986,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "2807d2a7d3eab9b54f1e3578529756d3b688734ae7635cb91585f34f34fac48c",
       "change": {
         "type": "unchanged",
@@ -3534,7 +4009,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "9edebebca6e25d5327e36049376ff8387e08b19f868d7a14527d33f58c3cedec",
       "change": {
         "type": "unchanged",
@@ -3557,7 +4032,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5dd867365144a55e02885e3e1cf94cb65c36562da4dc1311e2ca884695e6f8fd",
       "change": {
         "type": "unchanged",
@@ -3580,7 +4055,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "0e1d8fc9f14839ee9a782b32d6237e86b2335f50dd4416bc598f862b40e629c8",
       "change": {
         "type": "unchanged",
@@ -3603,7 +4078,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "9e3821700a6a6afc2391859c90b69d27bec3231b1b270c873ada2321c9427d66",
       "change": {
         "type": "unchanged",
@@ -3626,7 +4101,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "476bf06746dbea08ec153e796402b4e21c5494eefe6bb45ecfd8d7549e100419",
       "change": {
         "type": "unchanged",
@@ -3649,7 +4124,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "e420d32ef67319f8ee10c67ca668bfe75f4fd646d4b427f68c462993c75a7a80",
       "change": {
         "type": "unchanged",
@@ -3672,7 +4147,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "837af9b7af485bda88e54f95d15cb81bddf65f8dc8f311c3c6bb0b96bce374d4",
       "change": {
         "type": "unchanged",
@@ -3695,7 +4170,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "997612157f780344e555392be3a803c61760296164cb5ed25e064fe263d74389",
       "change": {
         "type": "unchanged",
@@ -3718,7 +4193,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "4302a9d6caac8bc719bd7ffd8590357c8f2d63ae2eb2fc95868d73a373b00e65",
       "change": {
         "type": "unchanged",
@@ -3741,7 +4216,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "e9c67c3552d855fed29723d1be6641e76709be3b442b7bd727e79800764c0429",
       "change": {
         "type": "unchanged",
@@ -3764,7 +4239,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "a82ed1045b74f6306796ebd1684a1bd43e9635d337292c3ad1eb23d21681e2da",
       "change": {
         "type": "unchanged",
@@ -3787,7 +4262,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "00479b3f5c8088f2e9be9bb8f6a63f83e4bf416fed80c814cfd80863a30126a0",
       "change": {
         "type": "unchanged",
@@ -3810,7 +4285,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "2be124180582dbe03bfd2c99434c8bcb2b37939890cdb0dcf2252854d78041b8",
       "change": {
         "type": "unchanged",
@@ -3833,7 +4308,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "92584ef96b1373adf062b3ef399e533095cf4956dd066a49e2172e3d0cd7a884",
       "change": {
         "type": "unchanged",
@@ -3856,7 +4331,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "3ae90031895687ec05bbf4eef8921fa836ddfccefd4268f622a9f44738fbbe56",
       "change": {
         "type": "unchanged",
@@ -3879,7 +4354,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "354b821b35245618e0f673c6282b02a33c6504d5e271296cd80fa894aa69e2ae",
       "change": {
         "type": "unchanged",
@@ -3902,7 +4377,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8339bd6d83d3f4a8343df8896589ba44a265fcf49ee8da6cfa4fb386a4ce8530",
       "change": {
         "type": "unchanged",
@@ -3925,7 +4400,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8c12658b9b0d74233c786242972766da6cc6f0ea57e09df91e30f7db45c2a472",
       "change": {
         "type": "unchanged",
@@ -3948,7 +4423,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8514459e2c26cd4917e26ff23c22cbcaaf7587385560b881d02860cbcb9c266b",
       "change": {
         "type": "unchanged",
@@ -3971,7 +4446,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 본회의(2026.07.30 목요일) 1. 제108회 세종특별자치시의회 임시회 제2차 본회의 보고사항 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 2026년도 공",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "eb5f478b96a77432597e2cb00b3de889c120a6a2a700b2bb6a6a22bcbd989eb0",
       "change": {
         "type": "unchanged",
@@ -3994,7 +4469,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제1차 예산결산특별위원회(2026.07.27 월요일) 1. 2026년도 세종특별자치시 제1회 추가경정예산안 및 기금운용계획변경안 검토보고서 2. 2026년도 세종특별자치시 제1회 추가경정예산안 및 기금운용계획변경안 예비심사보고서 3. 제안설명",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "b73f0adb5ce8a7fddb3c251814610d179bd7f840292693629dcfd09908621d33",
       "change": {
         "type": "unchanged",
@@ -4017,7 +4492,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제1차 예산결산특별위원회(2026.07.27 월요일) 1. 2026년도 세종특별자치시 제1회 추가경정예산안 및 기금운용계획변경안 검토보고서 2. 2026년도 세종특별자치시 제1회 추가경정예산안 및 기금운용계획변경안 예비심사보고서 3. 제안설명",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "4c75b0ac1044a5a8a0d04439ed1fbce5f2aa75b849c1d05523f989da2ecda53c",
       "change": {
         "type": "unchanged",
@@ -4040,7 +4515,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제1차 예산결산특별위원회(2026.07.27 월요일) 1. 2026년도 세종특별자치시 제1회 추가경정예산안 및 기금운용계획변경안 검토보고서 2. 2026년도 세종특별자치시 제1회 추가경정예산안 및 기금운용계획변경안 예비심사보고서 3. 제안설명",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "0daf9366d37841bc2f3902b56b27e244568cce613bab12f9819db9927dd20844",
       "change": {
         "type": "unchanged",
@@ -4063,7 +4538,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 의회운영위원회(2026.07.23 목요일) 1. 2026년 상반기 실적 및 하반기 주요업무 추진계획 2. 세종특별자치시의회 2027 충청권 하계세계대학경기대회 추진 특별위원회 구성 결의안 3. 세종특별자치시의회 행정수도완성 특별위원회 구성 결의안 4. 2026년도 행정사무감사 계획 승인의 건 5. 2026년도 행정사무감사 계획 협의의 건 6. 2026년도 세종특별자치시 제1",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "6fa5f4f10c5f868663e92ce66c262d28a57adb654141a752aaf0617502e4df82",
       "change": {
         "type": "unchanged",
@@ -4086,7 +4561,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 의회운영위원회(2026.07.23 목요일) 1. 2026년 상반기 실적 및 하반기 주요업무 추진계획 2. 세종특별자치시의회 2027 충청권 하계세계대학경기대회 추진 특별위원회 구성 결의안 3. 세종특별자치시의회 행정수도완성 특별위원회 구성 결의안 4. 2026년도 행정사무감사 계획 승인의 건 5. 2026년도 행정사무감사 계획 협의의 건 6. 2026년도 세종특별자치시 제1",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "bcc39e4a7a961a3173503ff5b71d1a0652e8d7233ac2dd9e1a067fa539253e25",
       "change": {
         "type": "unchanged",
@@ -4109,7 +4584,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 의회운영위원회(2026.07.23 목요일) 1. 2026년 상반기 실적 및 하반기 주요업무 추진계획 2. 세종특별자치시의회 2027 충청권 하계세계대학경기대회 추진 특별위원회 구성 결의안 3. 세종특별자치시의회 행정수도완성 특별위원회 구성 결의안 4. 2026년도 행정사무감사 계획 승인의 건 5. 2026년도 행정사무감사 계획 협의의 건 6. 2026년도 세종특별자치시 제1",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "822a1d666dca6e11478e30f1863b295c4f86221b695718f3a362e24dcd0071c8",
       "change": {
         "type": "unchanged",
@@ -4132,7 +4607,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 의회운영위원회(2026.07.23 목요일) 1. 2026년 상반기 실적 및 하반기 주요업무 추진계획 2. 세종특별자치시의회 2027 충청권 하계세계대학경기대회 추진 특별위원회 구성 결의안 3. 세종특별자치시의회 행정수도완성 특별위원회 구성 결의안 4. 2026년도 행정사무감사 계획 승인의 건 5. 2026년도 행정사무감사 계획 협의의 건 6. 2026년도 세종특별자치시 제1",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "002872a4c11996b4cd685c66a237ea202362fe6d0ee5e23edd1c30a48c914116",
       "change": {
         "type": "unchanged",
@@ -4155,7 +4630,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 의회운영위원회(2026.07.23 목요일) 1. 2026년 상반기 실적 및 하반기 주요업무 추진계획 2. 세종특별자치시의회 2027 충청권 하계세계대학경기대회 추진 특별위원회 구성 결의안 3. 세종특별자치시의회 행정수도완성 특별위원회 구성 결의안 4. 2026년도 행정사무감사 계획 승인의 건 5. 2026년도 행정사무감사 계획 협의의 건 6. 2026년도 세종특별자치시 제1",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "19fab1584e3bef1597934880e7dd14dd6335c2214e27082468594dfd2161ef4e",
       "change": {
         "type": "unchanged",
@@ -4178,7 +4653,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 의회운영위원회(2026.07.23 목요일) 1. 2026년 상반기 실적 및 하반기 주요업무 추진계획 2. 세종특별자치시의회 2027 충청권 하계세계대학경기대회 추진 특별위원회 구성 결의안 3. 세종특별자치시의회 행정수도완성 특별위원회 구성 결의안 4. 2026년도 행정사무감사 계획 승인의 건 5. 2026년도 행정사무감사 계획 협의의 건 6. 2026년도 세종특별자치시 제1",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "336fadd57e8072917b9f52477f40700b5c4d6ab7df529c3a514703976717f497",
       "change": {
         "type": "unchanged",
@@ -4201,7 +4676,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제2차 의회운영위원회(2026.07.23 목요일) 1. 2026년 상반기 실적 및 하반기 주요업무 추진계획 2. 세종특별자치시의회 2027 충청권 하계세계대학경기대회 추진 특별위원회 구성 결의안 3. 세종특별자치시의회 행정수도완성 특별위원회 구성 결의안 4. 2026년도 행정사무감사 계획 승인의 건 5. 2026년도 행정사무감사 계획 협의의 건 6. 2026년도 세종특별자치시 제1",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "eab3866c24b293eb32d77ead7dcaa8db4ca248a783ad72aaa434aea2992b5c56",
       "change": {
         "type": "unchanged",
@@ -4224,7 +4699,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제4차 도시환경위원회(2026.07.22 수요일) 1. 제안설명(환경녹지국 차량등록사업소 상하수도사업소)",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "892e2e3442041a4c1c18a323ca686fe87d309aaeee1ef2f0ef1f99a6a770201b",
       "change": {
         "type": "unchanged",
@@ -4247,7 +4722,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제4차 경제문화위원회(2026.07.22 수요일) 1. 제안설명(시설관리사업소 문화체육관광국)",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "493e1680359b2bded0a5b23794b6307cbe17a0a613104bf9f71897e64350c476",
       "change": {
         "type": "unchanged",
@@ -4270,7 +4745,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제4차 행정복지위원회(2026.07.22 수요일) 1. 제안설명(보건복지국 보건환경연구원 보건소 시립도서관 국회세종의사당건립지원협력사무소)",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "1900ef8f4763a6af714aa78471ecee3de9bdd87824e7cb9d6a16ca7a09ef26a8",
       "change": {
         "type": "unchanged",
@@ -4293,7 +4768,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "cc8a096f75a545870f4933ff736fc13689f450a0da75ac6ef7928a12ec182601",
       "change": {
         "type": "unchanged",
@@ -4316,7 +4791,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8684f1b2fee3afc28e47be5fc921402b58d6e6a91663b368e0aeb4b1ae7b23fe",
       "change": {
         "type": "unchanged",
@@ -4339,7 +4814,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "e8e6d4813085b06bf960e57d028c86ba5ceda8950e9a49601bc671f240d92abe",
       "change": {
         "type": "unchanged",
@@ -4362,7 +4837,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "75984e903ae2a791c6b80fe47a27f55d3109ef30023dbcb24ea72f577fb7b558",
       "change": {
         "type": "unchanged",
@@ -4385,7 +4860,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "05fb5c235c10c5ea3f771cb7551acee9916b1276ebc4122e57bee83bdd760b47",
       "change": {
         "type": "unchanged",
@@ -4408,7 +4883,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "6199c47a228e789d13824b4e8a17ac9dd997d9382f57947c4453a3d9a804fb6b",
       "change": {
         "type": "unchanged",
@@ -4431,7 +4906,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "efde283493f7c8f56c3a28117d7661ae7ae58bdd09bca52d0dfce08add61f483",
       "change": {
         "type": "unchanged",
@@ -4454,7 +4929,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "c0e9882aeb4e3e9b730978c5169657ba400f9101a3861b55af361eeb68b3e385",
       "change": {
         "type": "unchanged",
@@ -4477,7 +4952,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "a711a112a8af0f833f279f4f5a9def064d2b632e0c48d3a68d537b584f74c3f1",
       "change": {
         "type": "unchanged",
@@ -4500,7 +4975,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "c1ba5ff47d0d4a08f8629180b5ccb8120582624642edf213412997d75e33ea5f",
       "change": {
         "type": "unchanged",
@@ -4523,7 +4998,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "58e57ce3a7cc16829355da7f2397335b5060f67c2f47161514cf47f1ddf4ae9e",
       "change": {
         "type": "unchanged",
@@ -4546,7 +5021,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "4d1dee835967613abb0ea1db14ce3835a066389b8c30ef062ae702a3b2d64434",
       "change": {
         "type": "unchanged",
@@ -4569,7 +5044,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "958fc2ef890b971d6beac938f172ba0c9917c590adc6d89f4656eb7968503aa7",
       "change": {
         "type": "unchanged",
@@ -4592,7 +5067,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "957c5458beb987e6ed34e5a9d074e93f5807ff6bbfb7c75dc7cd9e1298209e09",
       "change": {
         "type": "unchanged",
@@ -4615,7 +5090,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "c57fb432cf0007a756a097972e9a69f4a6f051b0000b2033b081e1f187955ef8",
       "change": {
         "type": "unchanged",
@@ -4638,7 +5113,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "f91e9e8a82165a52d92eed606946b0741cfdd0c61ce75393b591cfcdfaf4a476",
       "change": {
         "type": "unchanged",
@@ -4661,7 +5136,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "1bccadac15d145ba043e28bcec758894ff0433aad9ed9c79762e755de4a3c6e5",
       "change": {
         "type": "unchanged",
@@ -4684,7 +5159,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "4dd82e57fbf3cf7ef31ba928e2120e5c21d24a342584d847f52a4d192e75f1b8",
       "change": {
         "type": "unchanged",
@@ -4707,7 +5182,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "68b8885884e7b746b2b40181a8af929aa93861a2eab2365a3412e876d460a736",
       "change": {
         "type": "unchanged",
@@ -4730,7 +5205,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "8cefa98f25141e98a312cff7d4313c5cd0761ae4e65c4319bc1ab106e3d7ea6c",
       "change": {
         "type": "unchanged",
@@ -4753,7 +5228,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "76aa253f5f346fb1e2dc8584c952e221bb1a5a7dc503c15d233be3d703befc71",
       "change": {
         "type": "unchanged",
@@ -4776,7 +5251,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "제108회 제3차 행정복지위원회(2026.07.21 화요일) 1. 세종특별자치시 행정수도 완성 추진위원회 설치 및 운영 조례안 2. 한자어·외래어 정비 등을 위한 세종특별자치시 30개 조례의 일부개정에 관한 조례안 3. 개인정보 침해 요인 개선 등을 위한 세종특별자치시 13개 조례의 일부개정에 관한 조례안 4. 세종특별자치시 이·통장의 임무와 실비 변상에 관한 조례 일부개정조례안 5. 202",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "eeaafbdb3ad68e61b661b1b4bd5d9aaa657170241a9ca7abfde295f96dd3a9cc",
       "change": {
         "type": "unchanged",
@@ -4797,9 +5272,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "37 (2025년도)세종시 친 보행자 환경 조성을 위한 대중교통 개선 연구모임 활동결과보고서 입법지원팀 2025-12-12 166",
+      "listContext": "37 (2025년도)세종시 친 보행자 환경 조성을 위한 대중교통 개선 연구모임 활동결과보고서 입법지원팀 2025-12-12 167",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5e8d3b4d7bad2caf89f5bf2247d93359a54f7a7dd9f02607b6b42f8046896dfb",
       "change": {
         "type": "unchanged",
@@ -4822,7 +5297,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "36 (2025년도)세종시 청소년 선진 정책 도입을 위한 연구모임 활동결과보고서 입법지원팀 2025-12-12 115",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "24ab38713d1741171c7a5cc9d08e20957cfaa3d07fe86d54347eb4e21124d622",
       "change": {
         "type": "unchanged",
@@ -4845,7 +5320,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "35 (2025년도)정주 외국인(다문화) 지역사회 활성화를 위한 연구모임 활동결과보고서 입법지원팀 2025-12-12 133",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "fefcaff3373c8e71991afcb45aab140ce8f341f206ef77e2b09a456237c93be2",
       "change": {
         "type": "unchanged",
@@ -4868,7 +5343,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "34 (2025년도)상가 공실의 다각적 해법 찾기 위한 연구모임 활동결과보고서 입법지원팀 2025-12-12 171",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "9578ae046de020ecb3f8894d51b3f4fdebef6dfc161e1aee551247c3cf51b121",
       "change": {
         "type": "unchanged",
@@ -4889,9 +5364,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "33 (2025년도)국회의사당시대 세종인재 참여 연구모임 활동결과보고서 입법지원팀 2025-12-12 114",
+      "listContext": "33 (2025년도)국회의사당시대 세종인재 참여 연구모임 활동결과보고서 입법지원팀 2025-12-12 117",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "18a1e5a5cb7c7296efdfd06c61ee6b204f934bca466e427fae6fb8970bbc8a48",
       "change": {
         "type": "unchanged",
@@ -4914,7 +5389,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "38 2025년도 행정사무감사 지적사항 조치결과(교육안전위원회 소관) 세종시의회 2025-12-08 192",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "abc310e9910a1603e0f7d1f014c5501f258ab619ce16969135e7d2b261408b20",
       "change": {
         "type": "unchanged",
@@ -4937,7 +5412,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "37 2025년도 행정사무감사 지적사항 조치결과(산업건설위원회 소관) 세종시의회 2025-12-08 167",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "e08da505328469622f473b9313093a851c3361b2cfe7062eacd1585b7d670085",
       "change": {
         "type": "unchanged",
@@ -4960,7 +5435,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "36 2025년도 행정사무감사 지적사항 조치결과(행정복지위원회 소관) 세종시의회 2025-12-08 154",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "c17af6de4a748280c9c3f444c657fd73a57334436e1fe11cecf1be1271890a97",
       "change": {
         "type": "unchanged",
@@ -4983,7 +5458,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "35 2025년도 행정사무감사 지적사항 조치결과(의회운영위원회 소관) 세종시의회 2025-12-08 125",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "a347759508819444a232daf17e60e7088233e0656c56b5a52752dfca5d765a59",
       "change": {
         "type": "unchanged",
@@ -5004,9 +5479,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "32 (2024년도)원도심 지역경제 활성화를 위한 연구모임 활동결과보고서 입법지원팀 2024-12-26 398",
+      "listContext": "32 (2024년도)원도심 지역경제 활성화를 위한 연구모임 활동결과보고서 입법지원팀 2024-12-26 399",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "94056251b5ad69b93f99751ca3b366629f4b8c6ba7d899a4d5df4cdb82c9d3ce",
       "change": {
         "type": "unchanged",
@@ -5029,7 +5504,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "31 (2024년도)세종 스포노믹스(세종시스포츠산업을 통한 경제활성화) 연구모임 활동결과보고서 입법지원팀 2024-12-26 331",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "77eedfde1ddae73d7b4d34fa777f63b5a04cfe7c30476937a82f5e0b018805cf",
       "change": {
         "type": "unchanged",
@@ -5052,7 +5527,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "30 (2024년도)문화·예술 활성화를 통한 관광 자원 구축 연구모임 활동결과보고서 입법지원팀 2024-12-26 335",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "23feb6515353c23f96277dab209df28cff5b8dff3a2238fe3e2f83f39100267d",
       "change": {
         "type": "unchanged",
@@ -5073,9 +5548,9 @@
       "documentState": null,
       "license": "별도 오픈라이선스 미확인",
       "analysisState": "목록·메타데이터 수집",
-      "listContext": "29 (2024년도)세종형 자율방범대 활성화를 위한 연구모임 활동결과보고서 입법지원팀 2024-12-26 250",
+      "listContext": "29 (2024년도)세종형 자율방범대 활성화를 위한 연구모임 활동결과보고서 입법지원팀 2024-12-26 251",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "fa98e8272523ac64be417a8583aa209439183865940fff9e142496734a87da93",
       "change": {
         "type": "unchanged",
@@ -5098,7 +5573,7 @@
       "analysisState": "목록·메타데이터 수집",
       "listContext": "28 (2024년도)반려동물 공간 조성을 위한 연구모임 활동결과보고서 입법지원팀 2024-12-26 236",
       "firstSeenAt": "2026-10-20T03:16:17.877Z",
-      "lastCheckedAt": "2026-10-25T13:38:14.009Z",
+      "lastCheckedAt": "2026-10-26T16:00:22.595Z",
       "contentHash": "5806d56869ae7956c7cf75b281261bb991e8eeb55c3100eac04bab63ba57f585",
       "change": {
         "type": "unchanged",
